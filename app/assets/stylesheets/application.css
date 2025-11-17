@@ -9,4 +9,17 @@
  * Consider organizing styles into separate files for maintainability.
  */
 
+ .ask {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+ }
 
+ .ask h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #ac2525;
+  text-align: center;
+ }
