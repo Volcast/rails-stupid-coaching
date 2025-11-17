@@ -1,6 +1,6 @@
-<h1>Stupid Coaching</h1>
+<h1 class="answer_heading">Stupid Coaching</h1>
 <p>The answer to your question is:</p>
-<p><%= @question %></p>
-<p><%= @answer %></p>
+<p class="question_answer"><%= @question %></p>
+<p class="answer"><%= @answer %></p>
 <%# <a href="/ask">Ask another question</a> %>
-<%= link_to "Ask another question", ask_path %>
+<%= link_to "Ask another question", ask_path, class: "btn btn-primary" %>
